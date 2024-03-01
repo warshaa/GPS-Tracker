@@ -68,3 +68,15 @@ String DoubleToString(double x)
     sprintf(c, "%f", x);
     return c;
 }
+
+double usless()
+{
+    return 0;
+}
+
+double usless2()
+{
+    useless();
+    // how about this comment
+    return 0;
+}
